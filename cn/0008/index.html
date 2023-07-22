@@ -134,10 +134,10 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="https://blog.smallfang.us/archives/2023/">
+  <link rel="canonical" href="https://blog.smallfang.us/cn/0008/">
   <title>
     
-      SmallFang的个人博客
+      go-proxy-bingai的使用 - SmallFang的个人博客
     
   </title>
 <meta name="generator" content="Hexo 5.4.2"></head>
@@ -333,19 +333,19 @@
     .body--light {
       /* intro-header */
       --intro-header-background-image-url-home: url('/img/header_img/newhome_bg.jpg');
-      --intro-header-background-image-url-post: url('');
-      --intro-header-background-image-url-page: url('/img/header_img/archive_bg2.jpg');
+      --intro-header-background-image-url-post: url('https://img1.imgtp.com/2023/07/22/QCS66qp5.png');
+      --intro-header-background-image-url-page: url('/https://img1.imgtp.com/2023/07/22/QCS66qp5.png');
     }
     .body--dark {
       --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/newhome_bg.jpg');
-      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('');
-      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/archive_bg2.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://img1.imgtp.com/2023/07/22/QCS66qp5.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/https://img1.imgtp.com/2023/07/22/QCS66qp5.png');
     }
 
     header.intro-header {
-       /*page*/
-        background-image: var(--intro-header-background-image-url-page);
-        /* background-image: url('/img/header_img/archive_bg2.jpg'); */
+       /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('https://img1.imgtp.com/2023/07/22/QCS66qp5.png'); */
       
     }
 
@@ -367,10 +367,42 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           
-          <div class="site-heading">
-            <h1>SmallFang的个人博客</h1>
-            <!--<hr class="small">-->
-            <span class="subheading">常常来玩~</span>
+          <div class="post-heading">
+            <div class="tags">
+              
+              <a class="tag" href="/tags/#新必应" title="新必应">新必应</a>
+              
+            </div>
+            <h1>go-proxy-bingai的使用</h1>
+            <h2 class="subheading">一个掉了我好几把头发的AI教程</h2>
+            <span class="meta">
+              Posted by SmallFang on
+              2023-07-22
+            </span>
+
+
+            
+            <!-- WordCount start -->
+            <div class="blank_box"></div>
+            <span class="meta">
+              Estimated Reading Time <span class="post-count">4</span> Minutes
+            </span>
+            <div class="blank_box"></div>
+            <span class="meta">
+              Words <span class="post-count">1.3k</span> In Total
+            </span>
+            <div class="blank_box"></div>
+            <!-- WordCount end -->
+            
+            
+            <!-- 不蒜子统计 start -->
+            <span class="meta" id="busuanzi_container_page_pv">
+              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Times
+            </span>
+            <!-- 不蒜子统计 end -->
+            
+
+
           </div>
           
         </div>
@@ -411,235 +443,240 @@
 	Friends Blog、
 	anchorjs、
 	) -->
-		<!-- Main Content -->
-<div class="container">
-  <div class="row">
-    
+		<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-    <!-- USE SIDEBAR -->
-    <!-- Post Container -->
-    <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
+        <blockquote>
+<p>2023年2月7日，微软在博客上发表了一篇名为&quot;<a target="_blank" rel="noopener" href="https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/">Reinventing search with a new AI-powered Microsoft Bing and Edge, your copilot for the web</a>&quot;的文章，发布搭载了GPT-4模型的新必应，开启了AI搜索引擎的时代。但是这项服务不对大陆开放。为了让更多的人能更方便地使用新必应，作者利用一个github开源项目<a target="_blank" rel="noopener" href="https://github.com/adams549659584/go-proxy-bingai">go-proxy-bingai</a>搭建了一个新必应的国内镜像网站。本文章讲介绍此网站的具体使用方法。</p>
+</blockquote>
+<h1>Cookie的_U值（2023年7月22日更新）</h1>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">15LScHEHlWbM</span>-GhJyfXNr<span class="number">7</span>HEzttXfC<span class="number">50</span>u-yyZhH_zfSMwy<span class="number">4</span>FAM<span class="number">9</span>uqzOEfLY<span class="number">0</span>R<span class="number">2</span>BOjY<span class="number">0</span>Rl<span class="number">2</span>ZCsQRTHMY<span class="number">3</span>gzasCAQPd-vRzgB_xmangN<span class="number">0</span>ia<span class="number">17</span>VBjsbIObWGLurv<span class="number">8</span>cUfFEGNDeOCmQ<span class="number">5</span>MULCahM-UOXKZ<span class="number">1</span>xkF<span class="number">8</span>kjK<span class="number">8</span>la<span class="number">7</span>uQdWn_m<span class="number">0</span>vxxUfKpP<span class="number">5</span>oJLpjuMfDilrPh<span class="number">4</span>ETMiYDjbEf<span class="number">4</span>hVHbLIGUJA<span class="number">9</span>fdBcKR<span class="number">8</span>ul<span class="number">6</span>eFjpJ<span class="number">8</span>sRmxk</span><br></pre></td></tr></table></figure>
+<p>（注意：每个_U值的有效时间仅仅只有1天，而作者又是学生，没有时间和精力每天都更新此值，所以可能会出现提供的_U值因过期无法使用的情况，请见谅😊；不过我会尽力做到定时更新此_U值）</p>
+<h1>获取的Cookie_U值如何使用</h1>
+<p>打开<a target="_blank" rel="noopener" href="https://bing.smallfang.us">https://bing.smallfang.us</a>，点击右上角的设置图标，点击“设置用户”，并在弹出的对话框中输入我上文提供的_U值<br>
+（注意：如果使用这种方式，建议在对话完之后就删除对话记录，否则你与Bing的对话内容就会毫无保留的展现在大众面前😂）<br>
+<img src="https://img1.imgtp.com/2023/07/22/2zAHbzMK.png" alt="1"></p>
+<h1>如何获取自己的_U值（对于相关方面没有任何了解的人来说可能会很费时间、很费脑子，因此不建议尝试）</h1>
+<blockquote>
+<p>在介绍ChatGPT Access Token的自行获取方式时比较水，因为我认为系统提示已经讲得比较明白。但是_U的获取和启用方式并没有系统提示，因此我还是仔细地讲一下。</p>
+</blockquote>
+<p>接下来开始。</p>
+<h2 id="第一步：拥有一个微软账号">第一步：拥有一个微软账号</h2>
+<p>这个不难，可以在这里注册：<a target="_blank" rel="noopener" href="https://account.microsoft.com">Microsoft账号注册</a><br>
+注意：这里建议使用 @outlook.com结尾的邮箱或其他外国品牌的邮箱。当然，你也可以使用 @qq.com结尾的邮箱，但是我不确定这是否会导致你的账号无法使用新必应。<br>
+外国邮箱注册可以参考这篇文章：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/630451528">海外邮箱有哪些?真心推荐以下6个海外邮箱</a></p>
+<h2 id="第二步：获取账号的-U值（每隔24小时都需要重新获取）">第二步：获取账号的_U值（每隔24小时都需要重新获取）</h2>
+<p>访问 <a target="_blank" rel="noopener" href="https://www.bing.com/">https://www.bing.com/</a> 或 <a target="_blank" rel="noopener" href="https://cn.bing.com/">https://cn.bing.com/</a> ，登录你的微软账号</p>
+<p>F12或Ctrl + Shift + I 打开控制台</p>
+<p>按照图示操作即可获取_U值</p>
+<p><img src="https://github.com/FangZirui-E5/go-proxy-bingai/raw/master/docs/img/bing-cookie.png" alt="2"></p>
+<h2 id="第三步：打开新必应的官网，进行账号验证（这一步每个账号仅需做一次就足够了，无需每次都进行此操作）">第三步：打开新必应的官网，进行账号验证（这一步每个账号仅需做一次就足够了，无需每次都进行此操作）</h2>
+<p>目前微软为了防止你在第三方平台使用bing，会对所有首次与新必应对话的用户所访问的域名进行验证。如果发现用户正在访问的不是<a target="_blank" rel="noopener" href="https://www.bing.com">https://www.bing.com</a> 这个站点而是别的（如<a target="_blank" rel="noopener" href="https://bing.smallfang.us">https://bing.smallfang.us</a> ），就会阻止你的访问。 因此假如你未进行账号验证而直接将获取的_U投入使用，就会遇到提示“无效域”的窘境。<br>
+<img src="https://user-images.githubusercontent.com/88972415/242770903-7069d650-6d86-4186-b4ef-041714cf3af4.png" alt="3"></p>
+<h3 id="科学上网（最难的一步）">科学上网（最难的一步）</h3>
+<p>目前，由于微软做了相关处理，因此在国内的网络环境下访问必应官网<a target="_blank" rel="noopener" href="https://www.bing.com">https://www.bing.com</a> 的时候会被自动重新定向至必应国内版<a target="_blank" rel="noopener" href="https://cn.bing.com">https://cn.bing.com</a> 。而在国内版的必应中是没有新必应的服务的。这就导致在国内无法打开新必应。因此我们需要通过一种叫做“科学上网”的手段来访问必应的国际版<a target="_blank" rel="noopener" href="https://www.bing.com">https://www.bing.com</a> ，并以此打开新必应。（温馨提示：这种行为在中国大陆是违法的，请小心进行。）<br>
+（附文章：<a target="_blank" rel="noopener" href="https://www.95ye.com/article/4937.html">什么是科学上网？科学上网有哪些方式？科学上网是否违法？</a>、<a target="_blank" rel="noopener" href="https://chwy.niedzfs.com/posts/%E4%BB%80%E4%B9%88%E6%98%AF%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91-%E9%AD%94%E6%B3%95%E4%B8%8A%E7%BD%91-%E7%A7%91%E6%99%AE%E4%B8%80%E4%B8%8B/">什么是科学上网、魔法上网-科普一下</a>）<br>
+介于“科学上网”是违法的，我就不直接介绍详细做法了，但是我可以推荐几篇帖子：<br>
+1.<a target="_blank" rel="noopener" href="https://zh.safetydetectives.com/best-vpns/">2023年10大最佳VPN：兼顾安全、功能和速度</a><br>
+2.<a target="_blank" rel="noopener" href="https://zh.safetydetectives.com/blog/best-really-free-vpns-zh/">2023年5大（真正免费的）VPN：绝对安全，速度超快</a><br>
+3.<a target="_blank" rel="noopener" href="https://www.95ye.com/article/4937.html">什么是科学上网？科学上网有哪些方式？科学上网是否违法？</a></p>
+<p>和一些VPN的官网：<br>
+Proton VPN：<a target="_blank" rel="noopener" href="https://protonvpn.com/">https://protonvpn.com/</a><br>
+Windscribe：<a target="_blank" rel="noopener" href="https://windscribe.com/">https://windscribe.com/</a><br>
+Hotspot Shield：<a target="_blank" rel="noopener" href="https://www.hotspotshield.com/zh-cn/">https://www.hotspotshield.com/zh-cn/</a><br>
+Hide me：<a target="_blank" rel="noopener" href="https://hide.me/zh/">https://hide.me/zh/</a><br>
+TunnelBear：<a target="_blank" rel="noopener" href="https://www.tunnelbear.com/">https://www.tunnelbear.com/</a><br>
+Avira Phantom VPN：<a target="_blank" rel="noopener" href="https://www.avira.com/zh-cn/free-vpn">https://www.avira.com/zh-cn/free-vpn</a></p>
+<p>在官网上获取到VPN软件之后，打开并点击连接，再在浏览器中输入“<a target="_blank" rel="noopener" href="https://www.bing.com">https://www.bing.com</a>” 并访问，应该就能避开被重新定向至cn的烦恼了。</p>
+<p>恭喜你完成了最难的部分“科学上网”。</p>
+<p>这可以帮助你进入新必应。</p>
+<h3 id="完成验证">完成验证</h3>
+<p>这就十分轻松了。点击上方栏目中的“聊天”选项卡，进入聊天界面，向新必应发送任意消息。随后其下方就会出现一个“正在验证”的框。等待片刻就会变为“完成”。至此，你的账号已经完成了验证。</p>
+<p><img src="https://img1.imgtp.com/2023/07/22/czDv9oBk.png" alt="4"></p>
+<p>恭喜你完成了全部步骤。到现在，请你放心地断开VPN，在<a target="_blank" rel="noopener" href="https://bing.smallfang.us">https://bing.smallfang.us</a> 的“设置用户中”输入你前文获得的_U值，开始畅快地在国内网络环境与新必应聊天吧。</p>
 
-      <!-- Main Content -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-1">
-      <!-- 归档列表 -->
 
-      
-
-      <!-- 归档列表 -->
-      
-      <div class="one-tag-list">
-        <span class="fa fa-calendar-times-o listing-seperator" id="2023">
-          <span class="tag-text">2023</span>
-        </span>
-        <ul>
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
           
-          <li>
-            07-22
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/0008/" style="color: #0085a1">
-              <span>
-                go-proxy-bingai的使用
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
           
-          <li>
-            07-16
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/0007/" style="color: #0085a1">
-              <span>
-                Pandora版ChatGPT的使用
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            07-09
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/0006/" style="color: #0085a1">
-              <span>
-                Windows和MacOS的虚拟机安装教程
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            07-01
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/0005/" style="color: #0085a1">
-              <span>
-                我刚刚又测试了Windows Update病毒(doge)
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            06-30
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/0004/" style="color: #0085a1">
-              <span>
-                我刚刚测试了Windows XP Horror Edition！
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            06-29
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/0003/" style="color: #0085a1">
-              <span>
-                如何配置、使用和白嫖IDM？
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            06-29
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/0002/" style="color: #0085a1">
-              <span>
-                我回母校啦
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            06-22
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/0001/" style="color: #0085a1">
-              <span>
-                我的第一篇文章
-                
-                -- cn
-                
-              </span>
-            </a>
+          <li class="next">
+            <a href="/cn/0007/" data-toggle="tooltip" data-placement="top" title="Pandora版ChatGPT的使用">Next Post &rarr;</a>
           </li>
           
         </ul>
-      </div>
-      
-    </div>
-  </div>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      SmallFang的博客网站。欢迎与我联系。
+    
+  </p>
 </div>
+<!-- tip end -->
 
+        <!-- tip end -->
+        
 
-      <!-- 如果开启评论功能 -->
-      
-    </div>
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
 
-    <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-  <h5><a href="/about/">关于自己</a></h5>
-  <div class="short-about">
-
-    
-
-    
-    <p>我希望在某一天世界上不再会有战争和不可缓和的矛盾......</p>
-    
-
-    <!-- SNS Link -->
-    <ul class="list-inline">
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-    </ul>
-  </div>
-</section>
-
-        <hr>
-    
-        <!-- RECENT POSTS -->
-
-<h5><a href="/">最近博文</a></h5>
-<div class="widget">
-  <ul>
-    
-    <a href="../../cn/0008/">
-      <li>go-proxy-bingai的使用</li>
-    </a>
-    
-    <a href="../../cn/0007/">
-      <li>Pandora版ChatGPT的使用</li>
-    </a>
-    
-    <a href="../../cn/0006/">
-      <li>Windows和MacOS的虚拟机安装教程</li>
-    </a>
-    
-    <a href="../../cn/0005/">
-      <li>我刚刚又测试了Windows Update病毒(doge)</li>
-    </a>
-    
-    <a href="../../cn/0004/">
-      <li>我刚刚测试了Windows XP Horror Edition！</li>
-    </a>
-    
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=go-proxy-bingai的使用&body=Hi,I found this website and thought you might like it https://blog.smallfang.us/cn/0008/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
   </ul>
 </div>
 
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
 
+        <!-- Sharing End -->
+        
         <hr>
-    
-</div>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
 
 
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
     
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">Cookie的_U值（2023年7月22日更新）</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">获取的Cookie_U值如何使用</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">如何获取自己的_U值（对于相关方面没有任何了解的人来说可能会很费时间、很费脑子，因此不建议尝试）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E6%8B%A5%E6%9C%89%E4%B8%80%E4%B8%AA%E5%BE%AE%E8%BD%AF%E8%B4%A6%E5%8F%B7"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">第一步：拥有一个微软账号</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E8%8E%B7%E5%8F%96%E8%B4%A6%E5%8F%B7%E7%9A%84-U%E5%80%BC%EF%BC%88%E6%AF%8F%E9%9A%9424%E5%B0%8F%E6%97%B6%E9%83%BD%E9%9C%80%E8%A6%81%E9%87%8D%E6%96%B0%E8%8E%B7%E5%8F%96%EF%BC%89"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">第二步：获取账号的_U值（每隔24小时都需要重新获取）</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E6%89%93%E5%BC%80%E6%96%B0%E5%BF%85%E5%BA%94%E7%9A%84%E5%AE%98%E7%BD%91%EF%BC%8C%E8%BF%9B%E8%A1%8C%E8%B4%A6%E5%8F%B7%E9%AA%8C%E8%AF%81%EF%BC%88%E8%BF%99%E4%B8%80%E6%AD%A5%E6%AF%8F%E4%B8%AA%E8%B4%A6%E5%8F%B7%E4%BB%85%E9%9C%80%E5%81%9A%E4%B8%80%E6%AC%A1%E5%B0%B1%E8%B6%B3%E5%A4%9F%E4%BA%86%EF%BC%8C%E6%97%A0%E9%9C%80%E6%AF%8F%E6%AC%A1%E9%83%BD%E8%BF%9B%E8%A1%8C%E6%AD%A4%E6%93%8D%E4%BD%9C%EF%BC%89"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">第三步：打开新必应的官网，进行账号验证（这一步每个账号仅需做一次就足够了，无需每次都进行此操作）</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%88%E6%9C%80%E9%9A%BE%E7%9A%84%E4%B8%80%E6%AD%A5%EF%BC%89"><span class="toc-nav-number">3.3.1.</span> <span class="toc-nav-text">科学上网（最难的一步）</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%AE%8C%E6%88%90%E9%AA%8C%E8%AF%81"><span class="toc-nav-number">3.3.2.</span> <span class="toc-nav-text">完成验证</span></a></li></ol></li></ol></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#新必应" title="新必应">新必应</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+      </div>
+    </div>
   </div>
-</div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
 
 
 		<!-- Footer (contains ThemeColor、viewer) -->
