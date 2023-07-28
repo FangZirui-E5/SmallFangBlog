@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.smallfang.us/categories/index.html</loc>
+    
+    <lastmod>2023-07-28</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.smallfang.us/tags/index.html</loc>
+    
+    <lastmod>2023-07-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.smallfang.us/404.html</loc>
     
     <lastmod>2023-07-28</lastmod>
     
@@ -24,13 +38,6 @@
   
   <url>
     <loc>https://blog.smallfang.us/cn/0006/</loc>
-    
-    <lastmod>2023-07-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.smallfang.us/404.html</loc>
     
     <lastmod>2023-07-09</lastmod>
     
@@ -72,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://blog.smallfang.us/categories/index.html</loc>
-    
-    <lastmod>2023-06-22</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.smallfang.us/about/index.html</loc>
     
     <lastmod>2023-06-22</lastmod>
@@ -102,13 +102,6 @@
 
   
   <url>
-    <loc>https://blog.smallfang.us/tags/%E5%9B%9E%E6%AF%8D%E6%A0%A1/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.smallfang.us/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>daily</changefreq>
@@ -116,7 +109,7 @@
   </url>
   
   <url>
-    <loc>https://blog.smallfang.us/tags/%E7%97%85%E6%AF%92/</loc>
+    <loc>https://blog.smallfang.us/tags/%E5%9B%9E%E6%AF%8D%E6%A0%A1/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -124,6 +117,13 @@
   
   <url>
     <loc>https://blog.smallfang.us/tags/%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%8B%E8%BD%BD/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.smallfang.us/tags/%E7%97%85%E6%AF%92/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -153,14 +153,14 @@
 
   
   <url>
-    <loc>https://blog.smallfang.us/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://blog.smallfang.us/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.smallfang.us/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>https://blog.smallfang.us/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
