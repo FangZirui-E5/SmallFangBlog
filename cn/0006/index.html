@@ -453,43 +453,126 @@
 
         <blockquote>
 <p>虚拟机在开发、游戏等领域都有广泛应用，其价值不言而喻。</p>
+</blockquote>
+<blockquote>
 <p>本教程将会以VMware为例，介绍什么是虚拟机、讲授各个操作系统的虚拟机的安装方法以及一些使用技巧。</p>
 </blockquote>
-<h1 id="什么是虚拟机"><a href="#什么是虚拟机" class="headerlink" title="什么是虚拟机"></a>什么是虚拟机</h1><p>虚拟机是指行为方式类似于实际计算机的计算机文件（通常称为映像）。 它可以作为独立的计算环境在窗口中运行，通常用于运行不同的操作系统，甚至可作为用户的整个计算机体验，这在许多人的工作计算机上都很常见。 虚拟机与系统的其余部分相互隔离，这意味着虚拟机中的软件不会干扰主机的主要操作系统。<br>（定义来自Microsoft Azure）</p>
-<h1 id="虚拟机安装"><a href="#虚拟机安装" class="headerlink" title="虚拟机安装"></a>虚拟机安装</h1><h2 id="Windows系列"><a href="#Windows系列" class="headerlink" title="Windows系列"></a>Windows系列</h2><h3 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">VMware客户端</span><br><span class="line">Windows操作系统的镜像文件</span><br></pre></td></tr></table></figure>
-<p>通过我事先准备好的共享链接下载。<br><a target="_blank" rel="noopener" href="https://fangzirui-my.sharepoint.com/:f:/g/personal/1275589811_smallfang_us/EhmjHKLTl4xEgulPMYB_Y6QBtEPzf2HEDpA9wtl7zKjAug">Windows10</a><br><a target="_blank" rel="noopener" href="https://fangzirui-my.sharepoint.com/:f:/g/personal/1275589811_smallfang_us/EqXIiihww-tGr70NGLxJ2KgBbkbZtrl1kWNBvFpbCmm9sg">Windows11</a></p>
-<h3 id="安装准备"><a href="#安装准备" class="headerlink" title="安装准备"></a>安装准备</h3><p>双击运行下载好的”VMware Workstation 17 Pro.exe”程序，在条款协议这里选择“同意”，并一直点击“下一步”。<br>在“激活”这一步中，输入激活码<code>JU090-6039P-08409-8J0QH-2YR7F</code>，完成激活</p>
-<h3 id="正式安装"><a href="#正式安装" class="headerlink" title="正式安装"></a>正式安装</h3><p>打开安装好的VMware客户端，点击“创建新的虚拟机”<br><img src="https://img1.imgtp.com/2023/07/30/Phv6lq9h.png" alt="1"><br>点击下一步<br><img src="https://img1.imgtp.com/2023/07/30/firgmOzo.png" alt="2"><br>在图示的”1”中选择刚刚下载好的Windows镜像文件（即以.iso结尾的文件）<br><img src="https://img1.imgtp.com/2023/07/30/9YGqWpJD.png" alt="3"><br>在这一步中可以更改虚拟机的安装路径（建议更改到空间比较大的磁盘中），点击下一步<br><img src="https://img1.imgtp.com/2023/07/30/3DHlwgN3.png" alt="4"><br>可以更改虚拟磁盘大小，也可以不更改、下一步<br><img src="https://img1.imgtp.com/2023/07/30/meU2tY6R.png" alt="5"><br>点击“完成”即可<br><img src="https://img1.imgtp.com/2023/07/30/x6plh078.png" alt="6"></p>
+<h1>什么是虚拟机</h1>
+<p>虚拟机是指行为方式类似于实际计算机的计算机文件（通常称为映像）。 它可以作为独立的计算环境在窗口中运行，通常用于运行不同的操作系统，甚至可作为用户的整个计算机体验，这在许多人的工作计算机上都很常见。 虚拟机与系统的其余部分相互隔离，这意味着虚拟机中的软件不会干扰主机的主要操作系统。<br>
+（定义来自Microsoft Azure）</p>
+<h1>虚拟机安装</h1>
+<h2 id="Windows系列">Windows系列</h2>
+<h3 id="准备材料">准备材料</h3>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">VMware客户端</span><br><span class="line">Windows操作系统的镜像文件</span><br></pre></td></tr></table></figure>
+<p>通过我事先准备好的共享链接下载。<br>
+<a target="_blank" rel="noopener" href="https://fangzirui-my.sharepoint.com/:f:/g/personal/1275589811_smallfang_us/EhmjHKLTl4xEgulPMYB_Y6QBtEPzf2HEDpA9wtl7zKjAug">Windows10</a><br>
+<a target="_blank" rel="noopener" href="https://fangzirui-my.sharepoint.com/:f:/g/personal/1275589811_smallfang_us/EqXIiihww-tGr70NGLxJ2KgBbkbZtrl1kWNBvFpbCmm9sg">Windows11</a></p>
+<h3 id="安装准备">安装准备</h3>
+<p>双击运行下载好的&quot;VMware Workstation 17 Pro.exe&quot;程序，在条款协议这里选择“同意”，并一直点击“下一步”。<br>
+在“激活”这一步中，输入激活码<code>JU090-6039P-08409-8J0QH-2YR7F</code>，完成激活</p>
+<h3 id="正式安装">正式安装</h3>
+<p>打开安装好的VMware客户端，点击“创建新的虚拟机”<br>
+<img src="https://img1.imgtp.com/2023/07/30/Phv6lq9h.png" alt="1"><br>
+点击下一步<br>
+<img src="https://img1.imgtp.com/2023/07/30/firgmOzo.png" alt="2"><br>
+在图示的&quot;1&quot;中选择刚刚下载好的Windows镜像文件（即以.iso结尾的文件）<br>
+<img src="https://img1.imgtp.com/2023/07/30/9YGqWpJD.png" alt="3"><br>
+在这一步中可以更改虚拟机的安装路径（建议更改到空间比较大的磁盘中），点击下一步<br>
+<img src="https://img1.imgtp.com/2023/07/30/3DHlwgN3.png" alt="4"><br>
+可以更改虚拟磁盘大小，也可以不更改、下一步<br>
+<img src="https://img1.imgtp.com/2023/07/30/meU2tY6R.png" alt="5"><br>
+点击“完成”即可<br>
+<img src="https://img1.imgtp.com/2023/07/30/x6plh078.png" alt="6"></p>
 <p>接下来运行虚拟机，就会进入系统安装界面，按照自己的意愿和提示操作并选择下一步就可以了。</p>
-<h3 id="激活（可选）"><a href="#激活（可选）" class="headerlink" title="激活（可选）"></a>激活（可选）</h3><p>第一种办法：见bilibili视频<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1s64y1D7hx/?vd_source=d438152a927c1834e853b3ab18b3e389">windows10激活方法工具，简单易懂新手入门</a><br>第二种办法：点此链接<a target="_blank" rel="noopener" href="https://fangzirui-my.sharepoint.com/:f:/g/personal/1275589811_smallfang_us/EiTL3Uo8vqlOpsPsGbnWy98BSH7pC_DC-OVDZRitBwKCaQ?e=Jquloj">点我</a>下载激活工具（此工具来自互联网，因为杀毒软件会对盗版激活工具统一做报毒处理，所以我无法验证其安全性，如果不愿意冒险就不要尝试了）<br>然后点击激活即可</p>
-<h2 id="MacOS系列"><a href="#MacOS系列" class="headerlink" title="MacOS系列"></a>MacOS系列</h2><h3 id="准备材料-1"><a href="#准备材料-1" class="headerlink" title="准备材料"></a>准备材料</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">VMware客户端</span><br><span class="line">MacOS操作系统的镜像文件</span><br><span class="line">Unlocker解锁工具</span><br></pre></td></tr></table></figure>
-<p>通过我事先准备好的共享链接下载。<br><a target="_blank" rel="noopener" href="https://fangzirui-my.sharepoint.com/:f:/g/personal/1275589811_smallfang_us/Enm2BLDA88RFgLDK6fCte_sBKKOuOsrAIVg67pVMojvxXg">MacOS</a></p>
-<h3 id="安装准备-1"><a href="#安装准备-1" class="headerlink" title="安装准备"></a>安装准备</h3><p>第一步：双击运行下载好的”VMware Workstation 17 Pro.exe”程序，在条款协议这里选择“同意”，并一直点击“下一步”。<br>在“激活”这一步中，输入激活码<code>JU090-6039P-08409-8J0QH-2YR7F</code>，完成激活</p>
-<p>第二步：结束所有VMware的进程，右键下载好的”Unlocker.exe”，选择以管理员身份运行<br>等待安装完毕</p>
-<h3 id="正式安装-1"><a href="#正式安装-1" class="headerlink" title="正式安装"></a>正式安装</h3><p>打开安装好的VMware客户端，点击“创建新的虚拟机”<br><img src="https://img1.imgtp.com/2023/07/30/Phv6lq9h.png" alt="1"><br>点击下一步<br><img src="https://img1.imgtp.com/2023/07/30/firgmOzo.png" alt="2"><br>在图示的”1”中选择刚刚下载好的macOS镜像文件（即以.iso结尾的文件）<br><img src="https://img1.imgtp.com/2023/07/30/9YGqWpJD.png" alt="3"><br>在这一步中可以更改虚拟机的安装路径（建议更改到空间比较大的磁盘中）（需要记住安装路径，后面会用到），点击下一步<br><img src="https://img1.imgtp.com/2023/07/30/3DHlwgN3.png" alt="4"><br>可以更改虚拟磁盘大小，也可以不更改、下一步<br><img src="https://img1.imgtp.com/2023/07/30/meU2tY6R.png" alt="5"><br>点击“完成”即可<br><img src="https://img1.imgtp.com/2023/07/30/x6plh078.png" alt="6"></p>
-<p>启动虚拟机。如果能不正常启动，则需要阅读下面这一步骤；如果能正常启动，直接阅读“磁盘分区”这一步骤</p>
-<h3 id="配置虚拟机文件"><a href="#配置虚拟机文件" class="headerlink" title="配置虚拟机文件"></a>配置虚拟机文件</h3><p>注意：启动虚拟机。如果能不正常启动，则需要阅读、执行下面这一步骤；如果能正常启动，直接跳过这一步阅读、执行“磁盘分区”这一步骤</p>
-<p>打开虚拟机的安装路径，用<code>记事本</code>打开这个文件<br><img src="https://img1.imgtp.com/2023/07/30/HuxRp8xN.png" alt="7"><br>在末尾加上这样一段字符：<br><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">smc.version</span> = <span class="string">&quot;0&quot;</span></span><br></pre></td></tr></table></figure><br><img src="https://img1.imgtp.com/2023/07/30/yMfcTqY2.png" alt="8"><br>然后找到这段字符，改为<br><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">ethernet0.virtualDev</span> = <span class="string">&quot;vmxnet3&quot;</span></span><br></pre></td></tr></table></figure><br><img src="https://img1.imgtp.com/2023/07/30/ke9ZJ3SG.png" alt="9"></p>
-<h3 id="磁盘分区"><a href="#磁盘分区" class="headerlink" title="磁盘分区"></a>磁盘分区</h3><p>运行虚拟机，选择语言<br><img src="https://img1.imgtp.com/2023/07/30/6EjlC8yG.png" alt="10"><br>接下来这一步非常关键：<br>选择磁盘工具，并按照图示操作<br><img src="https://img1.imgtp.com/2023/07/30/Ra61jEhp.png" alt="11"><br><img src="https://img1.imgtp.com/2023/07/30/jKgrtOXD.png" alt="12"><br>可以给磁盘进行命名（随意）<br><img src="https://img1.imgtp.com/2023/07/30/Mz14mv6J.png" alt="13"></p>
+<h3 id="激活（可选）">激活（可选）</h3>
+<p>第一种办法：见bilibili视频<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1s64y1D7hx/?vd_source=d438152a927c1834e853b3ab18b3e389">windows10激活方法工具，简单易懂新手入门</a><br>
+第二种办法：点此链接<a target="_blank" rel="noopener" href="https://fangzirui-my.sharepoint.com/:f:/g/personal/1275589811_smallfang_us/EiTL3Uo8vqlOpsPsGbnWy98BSH7pC_DC-OVDZRitBwKCaQ?e=Jquloj">点我</a>下载激活工具（此工具来自互联网，因为杀毒软件会对盗版激活工具统一做报毒处理，所以我无法验证其安全性，如果不愿意冒险就不要尝试了）<br>
+然后点击激活即可</p>
+<h2 id="MacOS系列">MacOS系列</h2>
+<h3 id="准备材料-2">准备材料</h3>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">VMware客户端</span><br><span class="line">MacOS操作系统的镜像文件</span><br><span class="line">Unlocker解锁工具</span><br></pre></td></tr></table></figure>
+<p>通过我事先准备好的共享链接下载。<br>
+<a target="_blank" rel="noopener" href="https://fangzirui-my.sharepoint.com/:f:/g/personal/1275589811_smallfang_us/Enm2BLDA88RFgLDK6fCte_sBKKOuOsrAIVg67pVMojvxXg">MacOS</a></p>
+<h3 id="安装准备-2">安装准备</h3>
+<h4 id="VMware安装、激活">VMware安装、激活</h4>
+<p>双击运行下载好的&quot;VMware Workstation 17 Pro.exe&quot;程序，在条款协议这里选择“同意”，并一直点击“下一步”。<br>
+在“激活”这一步中，输入激活码<code>JU090-6039P-08409-8J0QH-2YR7F</code>，完成激活</p>
+<h4 id="用Unlocker解锁macOS">用Unlocker解锁macOS</h4>
+<blockquote>
+<p>VMware中默认不支持macOS的安装。我们需要用Unlocker来解决这一问题</p>
+</blockquote>
+<p>第一步：结束所有VMware的进程<br>
+第二步：安装Python语言环境，可以参考这篇文章：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_53280175/article/details/121107748">超详细的Python安装和环境搭建教程</a><br>
+第三步：打开前面下载好的&quot;unlocker&quot;文件夹，找到“win-install.cmd”文件，右键、以管理员身份运行。<br>
+第四步：等待安装完成即可。</p>
+<h3 id="正式安装-2">正式安装</h3>
+<p>打开VMware客户端，点击“创建新的虚拟机”<br>
+<img src="https://img1.imgtp.com/2023/07/30/Phv6lq9h.png" alt="1"><br>
+点击下一步<br>
+<img src="https://img1.imgtp.com/2023/07/30/firgmOzo.png" alt="2"><br>
+在图示的&quot;1&quot;中选择刚刚下载好的macOS镜像文件（即以.iso结尾的文件）<br>
+<img src="https://img1.imgtp.com/2023/07/30/9YGqWpJD.png" alt="3"><br>
+在这一步中可以更改虚拟机的安装路径（建议更改到空间比较大的磁盘中）（需要记住安装路径，后面会用到），点击下一步<br>
+<img src="https://img1.imgtp.com/2023/07/30/3DHlwgN3.png" alt="4"><br>
+可以更改虚拟磁盘大小，也可以不更改、下一步<br>
+<img src="https://img1.imgtp.com/2023/07/30/meU2tY6R.png" alt="5"><br>
+点击“完成”即可<br>
+<img src="https://img1.imgtp.com/2023/07/30/x6plh078.png" alt="6"></p>
+<h3 id="配置虚拟机文件">配置虚拟机文件</h3>
+<p>打开虚拟机的安装路径，用<code>记事本</code>打开这个文件<br>
+<img src="https://img1.imgtp.com/2023/07/30/HuxRp8xN.png" alt="7"><br>
+在末尾加上这样一段字符：</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">smc.version</span> = <span class="string">&quot;0&quot;</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://img1.imgtp.com/2023/07/30/yMfcTqY2.png" alt="8"><br>
+然后找到这段字符，改为</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">ethernet0.virtualDev</span> = <span class="string">&quot;vmxnet3&quot;</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://img1.imgtp.com/2023/07/30/ke9ZJ3SG.png" alt="9"></p>
+<h3 id="磁盘分区">磁盘分区</h3>
+<p>运行虚拟机，选择语言<br>
+<img src="https://img1.imgtp.com/2023/07/30/6EjlC8yG.png" alt="10"><br>
+接下来这一步非常关键：<br>
+选择磁盘工具，并按照图示操作<br>
+<img src="https://img1.imgtp.com/2023/07/30/Ra61jEhp.png" alt="11"><br>
+<img src="https://img1.imgtp.com/2023/07/30/jKgrtOXD.png" alt="12"><br>
+可以给磁盘进行命名（随意）<br>
+<img src="https://img1.imgtp.com/2023/07/30/Mz14mv6J.png" alt="13"></p>
 <p>接下来的步骤就按照系统提示进行就可以了。</p>
-<h1 id="使用技巧"><a href="#使用技巧" class="headerlink" title="使用技巧"></a>使用技巧</h1><h2 id="VMware-Tools"><a href="#VMware-Tools" class="headerlink" title="VMware Tools"></a>VMware Tools</h2><p>打开虚拟机，找到“虚拟机”选项卡，打开，点击“安装VMware Tools”<br><img src="https://img1.imgtp.com/2023/07/30/fJ3RPivn.png" alt="14"><br>随后按照虚拟机内跳出的对话框的提示进行操作即可。</p>
-<h2 id="快照"><a href="#快照" class="headerlink" title="快照"></a>快照</h2><h3 id="什么是快照？"><a href="#什么是快照？" class="headerlink" title="什么是快照？"></a>什么是快照？</h3><p>虚拟机快照（Virtual Machine Snapshot）是虚拟化技术中的一个功能，用于在特定时间点对虚拟机进行状态的捕捉和保存。当您创建虚拟机快照时，虚拟化平台会记录当前虚拟机的内存、磁盘和设备状态，并将这些信息保存为一个快照文件。</p>
+<h1>使用技巧</h1>
+<h2 id="VMware-Tools">VMware Tools</h2>
+<p>打开虚拟机，找到“虚拟机”选项卡，打开，点击“安装VMware Tools”<br>
+<img src="https://img1.imgtp.com/2023/07/30/fJ3RPivn.png" alt="14"><br>
+随后按照虚拟机内跳出的对话框的提示进行操作即可。</p>
+<h2 id="快照">快照</h2>
+<h3 id="什么是快照？">什么是快照？</h3>
+<p>虚拟机快照（Virtual Machine Snapshot）是虚拟化技术中的一个功能，用于在特定时间点对虚拟机进行状态的捕捉和保存。当您创建虚拟机快照时，虚拟化平台会记录当前虚拟机的内存、磁盘和设备状态，并将这些信息保存为一个快照文件。</p>
 <p>这样一来，在之后的运行中，您可以随时还原虚拟机到该快照的状态。当您还原到快照状态时，虚拟机的状态会回滚到快照创建时的状态，包括虚拟机中运行的应用程序和操作系统的配置等。</p>
 <p>虚拟机快照通常用于以下情况：</p>
 <ol>
-<li><p>备份与恢复：创建快照是一种轻松、快速的备份方式，可以在系统出现问题时方便地恢复到之前的状态，避免数据丢失。</p>
+<li>
+<p>备份与恢复：创建快照是一种轻松、快速的备份方式，可以在系统出现问题时方便地恢复到之前的状态，避免数据丢失。</p>
 </li>
-<li><p>软件测试与开发：在进行软件测试或开发时，可以创建快照，以便在测试失败或软件出现问题时，能够迅速回到测试或开发的起点。</p>
+<li>
+<p>软件测试与开发：在进行软件测试或开发时，可以创建快照，以便在测试失败或软件出现问题时，能够迅速回到测试或开发的起点。</p>
 </li>
-<li><p>安全测试：在进行安全性测试时，如果遇到恶意软件或病毒，可以还原虚拟机到安全的快照状态，防止系统受损。</p>
+<li>
+<p>安全测试：在进行安全性测试时，如果遇到恶意软件或病毒，可以还原虚拟机到安全的快照状态，防止系统受损。</p>
 </li>
-<li><p>系统配置：在对虚拟机进行重大系统配置更改之前，可以先创建快照，以备份当前的稳定状态，以防配置更改后出现问题。</p>
+<li>
+<p>系统配置：在对虚拟机进行重大系统配置更改之前，可以先创建快照，以备份当前的稳定状态，以防配置更改后出现问题。</p>
 </li>
 </ol>
-<p>尽管虚拟机快照提供了方便和灵活性，但也需要谨慎使用。较长时间的快照保留或频繁的快照创建可能会增加存储开销，并且过多的快照可能会导致性能下降。因此，应该根据实际需要，定期清理不再需要的快照，并确保为虚拟机分配足够的存储空间。<br>（定义由ChatGPT提供）</p>
-<h3 id="快照的使用"><a href="#快照的使用" class="headerlink" title="快照的使用"></a>快照的使用</h3><p>点击此按钮即可拍摄快照<br><img src="https://img1.imgtp.com/2023/07/30/fpTeS7Ek.png" alt="15"><br>点击此按钮即可管理快照<br><img src="https://img1.imgtp.com/2023/07/30/k3AJhJnI.png" alt="16"></p>
-<h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><p>Windows会自动提醒更新，无需多言~<br>macOS的更新：可以参考官方文档<a target="_blank" rel="noopener" href="https://support.apple.com/zh-cn/HT201541">在 Mac 上更新 macOS</a></p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>写文章不易，如果有帮助的话就请在此页面的最下方点击“star”按钮进入我的仓库为我点上一颗star吧~</p>
+<p>尽管虚拟机快照提供了方便和灵活性，但也需要谨慎使用。较长时间的快照保留或频繁的快照创建可能会增加存储开销，并且过多的快照可能会导致性能下降。因此，应该根据实际需要，定期清理不再需要的快照，并确保为虚拟机分配足够的存储空间。<br>
+（定义由ChatGPT提供）</p>
+<h3 id="快照的使用">快照的使用</h3>
+<p>点击此按钮即可拍摄快照<br>
+<img src="https://img1.imgtp.com/2023/07/30/fpTeS7Ek.png" alt="15"><br>
+点击此按钮即可管理快照<br>
+<img src="https://img1.imgtp.com/2023/07/30/k3AJhJnI.png" alt="16"></p>
+<h2 id="更新">更新</h2>
+<p>Windows会自动提醒更新，无需多言~<br>
+macOS的更新：可以参考官方文档<a target="_blank" rel="noopener" href="https://support.apple.com/zh-cn/HT201541">在 Mac 上更新 macOS</a></p>
+<h1>最后</h1>
+<p>写文章不易，如果有帮助的话就请在此页面的最下方点击“star”按钮进入我的仓库为我点上一颗star吧~</p>
 
 
         <hr>
@@ -589,7 +672,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">目录</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E8%99%9A%E6%8B%9F%E6%9C%BA"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">什么是虚拟机</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">虚拟机安装</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Windows%E7%B3%BB%E5%88%97"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">Windows系列</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%87%86%E5%A4%87%E6%9D%90%E6%96%99"><span class="toc-nav-number">2.1.1.</span> <span class="toc-nav-text">准备材料</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87"><span class="toc-nav-number">2.1.2.</span> <span class="toc-nav-text">安装准备</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85"><span class="toc-nav-number">2.1.3.</span> <span class="toc-nav-text">正式安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%BF%80%E6%B4%BB%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89"><span class="toc-nav-number">2.1.4.</span> <span class="toc-nav-text">激活（可选）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#MacOS%E7%B3%BB%E5%88%97"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">MacOS系列</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%87%86%E5%A4%87%E6%9D%90%E6%96%99-1"><span class="toc-nav-number">2.2.1.</span> <span class="toc-nav-text">准备材料</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87-1"><span class="toc-nav-number">2.2.2.</span> <span class="toc-nav-text">安装准备</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85-1"><span class="toc-nav-number">2.2.3.</span> <span class="toc-nav-text">正式安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E9%85%8D%E7%BD%AE%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%96%87%E4%BB%B6"><span class="toc-nav-number">2.2.4.</span> <span class="toc-nav-text">配置虚拟机文件</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA"><span class="toc-nav-number">2.2.5.</span> <span class="toc-nav-text">磁盘分区</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">使用技巧</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#VMware-Tools"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">VMware Tools</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%BF%AB%E7%85%A7"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">快照</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%AB%E7%85%A7%EF%BC%9F"><span class="toc-nav-number">3.2.1.</span> <span class="toc-nav-text">什么是快照？</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BF%AB%E7%85%A7%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-nav-number">3.2.2.</span> <span class="toc-nav-text">快照的使用</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%9B%B4%E6%96%B0"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">更新</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E6%9C%80%E5%90%8E"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">最后</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">什么是虚拟机</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">虚拟机安装</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Windows%E7%B3%BB%E5%88%97"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">Windows系列</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%87%86%E5%A4%87%E6%9D%90%E6%96%99"><span class="toc-nav-number">2.1.1.</span> <span class="toc-nav-text">准备材料</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87"><span class="toc-nav-number">2.1.2.</span> <span class="toc-nav-text">安装准备</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85"><span class="toc-nav-number">2.1.3.</span> <span class="toc-nav-text">正式安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%BF%80%E6%B4%BB%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89"><span class="toc-nav-number">2.1.4.</span> <span class="toc-nav-text">激活（可选）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#MacOS%E7%B3%BB%E5%88%97"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">MacOS系列</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%87%86%E5%A4%87%E6%9D%90%E6%96%99-2"><span class="toc-nav-number">2.2.1.</span> <span class="toc-nav-text">准备材料</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87-2"><span class="toc-nav-number">2.2.2.</span> <span class="toc-nav-text">安装准备</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#VMware%E5%AE%89%E8%A3%85%E3%80%81%E6%BF%80%E6%B4%BB"><span class="toc-nav-number">2.2.2.1.</span> <span class="toc-nav-text">VMware安装、激活</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%94%A8Unlocker%E8%A7%A3%E9%94%81macOS"><span class="toc-nav-number">2.2.2.2.</span> <span class="toc-nav-text">用Unlocker解锁macOS</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%AD%A3%E5%BC%8F%E5%AE%89%E8%A3%85-2"><span class="toc-nav-number">2.2.3.</span> <span class="toc-nav-text">正式安装</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E9%85%8D%E7%BD%AE%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%96%87%E4%BB%B6"><span class="toc-nav-number">2.2.4.</span> <span class="toc-nav-text">配置虚拟机文件</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA"><span class="toc-nav-number">2.2.5.</span> <span class="toc-nav-text">磁盘分区</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">使用技巧</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#VMware-Tools"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">VMware Tools</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%BF%AB%E7%85%A7"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">快照</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%AB%E7%85%A7%EF%BC%9F"><span class="toc-nav-number">3.2.1.</span> <span class="toc-nav-text">什么是快照？</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BF%AB%E7%85%A7%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-nav-number">3.2.2.</span> <span class="toc-nav-text">快照的使用</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%9B%B4%E6%96%B0"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">更新</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">最后</span></a></li></ol>
         
         </div>
       </aside>
