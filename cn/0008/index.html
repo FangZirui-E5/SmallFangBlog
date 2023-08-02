@@ -385,11 +385,11 @@
             <!-- WordCount start -->
             <div class="blank_box"></div>
             <span class="meta">
-              Estimated Reading Time <span class="post-count">5</span> Minutes
+              Estimated Reading Time <span class="post-count">6</span> Minutes
             </span>
             <div class="blank_box"></div>
             <span class="meta">
-              Words <span class="post-count">1.6k</span> In Total
+              Words <span class="post-count">1.7k</span> In Total
             </span>
             <div class="blank_box"></div>
             <!-- WordCount end -->
@@ -455,18 +455,24 @@
 <p>2023年2月7日，微软在博客上发表了一篇名为&quot;<a target="_blank" rel="noopener" href="https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/">Reinventing search with a new AI-powered Microsoft Bing and Edge, your copilot for the web</a>&quot;的文章，发布搭载了GPT-4模型的新必应，开启了AI搜索引擎的时代。但是这项服务不对大陆开放。为了让更多的人能更方便地使用新必应，作者利用一个github开源项目<a target="_blank" rel="noopener" href="https://github.com/adams549659584/go-proxy-bingai">go-proxy-bingai</a>搭建了一个新必应的国内镜像网站。本文章讲介绍此网站的具体使用方法。</p>
 </blockquote>
 <h1>站点地址</h1>
-<p>站点地址：<a target="_blank" rel="noopener" href="https://bing.smallfang.us/web/#">https://bing.smallfang.us/web/#</a></p>
+<p>站点地址：<a target="_blank" rel="noopener" href="https://bing.smallfang.us/web/#">https://bing.smallfang.us/web/#</a><br>
+开源地址：<a target="_blank" rel="noopener" href="https://github.com/Harry-zklcdc/go-proxy-bingai">https://github.com/Harry-zklcdc/go-proxy-bingai</a><br>
+原开源地址：<a target="_blank" rel="noopener" href="https://github.com/adams549659584/go-proxy-bingai">https://github.com/adams549659584/go-proxy-bingai</a></p>
 <p>站点更新日志</p>
 <blockquote>
+<p>2023年8月2日<br>
+本站所用的go-proxy-bingai更新至v1.11.0</p>
+</blockquote>
+<blockquote>
 <p>2023年8月1日<br>
-1.本站所用的go-proxy-bingai更新至1.10.2<br>
+1.本站所用的go-proxy-bingai更新至v1.10.2<br>
 2.我刚刚发现了通过配置环境变量的方式在后台配置_U值的方式，从而无需在博客中每天公布、你们打开即可用。</p>
 </blockquote>
 <blockquote>
 <p>2023年7月31日<br>
 1.非常不好的消息，前段时间可能是因为我的测试不严谨、或是其他原因，你们仍然需要使用我提供的_U值、KievRPSSecAuth值或自行科学上网以通过验证。<br>
-2.本站所用的go-proxy-bingai更新至1.9.5<br>
-3.本站所用的go-proxy-bingai更新至1.10.1</p>
+2.本站所用的go-proxy-bingai更新至v1.9.5<br>
+3.本站所用的go-proxy-bingai更新至v1.10.1</p>
 </blockquote>
 <blockquote>
 <p>2023年7月29日<br>
@@ -1172,5 +1178,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
