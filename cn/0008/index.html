@@ -496,11 +496,12 @@ Avira Phantom VPN：<a target="_blank" rel="noopener" href="https://www.avira.co
 在<a target="_blank" rel="noopener" href="https://bing.smmalfang.us/web/#">https://bing.smmalfang.us/web/#</a> 的<code>设置=&gt;设置</code>中填入上面获取到的三个cookie值</p>
 <p>恭喜你完成了全部步骤。到现在，请你放心地断开VPN，在<a target="_blank" rel="noopener" href="https://bing.smallfang.us/web/#">https://bing.smallfang.us/web/#</a> 中与新必应畅快地聊天吧。</p>
 <h1>最后</h1>
-<p>写文章、维护不易，如果有帮助的话就请在此页面的最下方点击“star”按钮进入我的仓库为我点上一颗star吧~</p>
+<p>写文章、维护站点不易，如果有帮助的话就请在此页面的最下方点击“star”按钮进入我的网站仓库为我点上一颗star吧~</p>
 <h1>站点更新日志</h1>
 <blockquote>
 <p>2023年8月3日<br>
-本站所用的go-proxy-bingai更新至v1.11.1</p>
+1.本站所用的go-proxy-bingai更新至v1.11.1<br>
+2.本站所用的go-proxy-bingai更新至v1.11.2</p>
 </blockquote>
 <blockquote>
 <p>2023年8月2日<br>
@@ -1185,5 +1186,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
