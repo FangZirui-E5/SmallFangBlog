@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.smallfang.us/cn/0014/</loc>
-    
-    <lastmod>2023-10-03</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.smallfang.us/cn/0012/</loc>
     
     <lastmod>2023-10-02</lastmod>
@@ -173,13 +166,6 @@
   
   <url>
     <loc>https://blog.smallfang.us/tags/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2023-10-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.smallfang.us/tags/%E9%80%9A%E7%9F%A5/</loc>
     <lastmod>2023-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
