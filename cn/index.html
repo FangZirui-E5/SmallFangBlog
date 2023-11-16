@@ -641,8 +641,7 @@ Windows Copilot的使用其实也很简单，微软现在已经将......
       
 2022年11月30日，OpenAI在发布了具有历史意义的生成式大语言模型ChatGPT，强人工智能的序幕逐渐拉开，AI语言模型的训练方向也逐渐清晰。但是这项服务不对大陆开放。为了让更多的人能更方便地使用ChatGPT，作者利用一个GitHub开源项目Pandora搭建了一个ChatGPT的国内镜像网站。本文章讲介绍此网站的具体使用方法。
 
-站点地址
-站点地址：https://chat.s......
+站点地址站点地址：https://chat.sm......
     </div>
   </a>
   
@@ -1381,5 +1380,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
